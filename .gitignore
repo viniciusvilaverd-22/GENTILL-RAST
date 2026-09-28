@@ -1,0 +1,8 @@
+# Local publication metadata
+.publication/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
