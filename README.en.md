@@ -147,6 +147,8 @@ Responsibilities across the case:
 - [Engineering Decisions](docs/public/ENGINEERING_DECISIONS.md)
 - [Architecture](docs/public/ARCHITECTURE.md)
 - [Security Model](docs/public/SECURITY_MODEL.md)
+- [Threat Model](docs/public/THREAT_MODEL.md)
+- [Data Ownership Map](docs/public/DATA_OWNERSHIP.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
 - [Public Roadmap](docs/public/ROADMAP.md)
 
