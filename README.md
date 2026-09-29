@@ -7,6 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-CASE%20STUDY-111111?style=for-the-badge)](#)
 [![Public](https://img.shields.io/badge/PUBLIC-DOCUMENTATION%20ONLY-2f363d?style=for-the-badge)](#)
 [![Source](https://img.shields.io/badge/SOURCE-PRIVATE-6e7681?style=for-the-badge)](#)
+[![Public Portfolio Guard](https://github.com/viniciusvilaverd-22/GENTILL-RAST/actions/workflows/publication-guard.yml/badge.svg)](https://github.com/viniciusvilaverd-22/GENTILL-RAST/actions/workflows/publication-guard.yml)
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white)](#)
 [![PostGIS](https://img.shields.io/badge/PostGIS-Geospatial-336791?style=flat-square&logo=postgresql&logoColor=white)](#)
