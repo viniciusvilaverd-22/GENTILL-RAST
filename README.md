@@ -1,5 +1,7 @@
 # REST Gentill
 
+<p align="center"><img src="docs/public/assets/portfolio-hero.svg" alt="REST Gentill — Enterprise Asset Intelligence & Tracking Platform" width="100%"></p>
+
 **Enterprise Asset Intelligence & Tracking Platform**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-CASE%20STUDY-111111?style=for-the-badge)](#)
@@ -72,6 +74,11 @@ O REST Gentill divide o sistema em autoridades explícitas:
 
 ## Arquitetura
 
+<p align="center"><img src="docs/public/assets/architecture-overview.svg" alt="Arquitetura do REST Gentill" width="100%"></p>
+
+<details>
+<summary><strong>Ver arquitetura em Mermaid</strong></summary>
+
 ```mermaid
 flowchart LR
     WA["Windows Agent"] --> CORE["REST Core"]
@@ -88,6 +95,8 @@ flowchart LR
 
     MAPPER["REST Mapper"] -. levantamento indoor .-> CORE
 ```
+
+</details>
 
 ### Uma decisão central
 

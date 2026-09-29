@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">REST Gentill Architecture Overview</title><desc id="desc">Conceptual architecture showing interfaces, agents, core, telemetry and data.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0f12"/><stop offset="1" stop-color="#161b20"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5d98a"/><stop offset="1" stop-color="#a36a1f"/></linearGradient></defs>
+<rect width="1200" height="640" rx="28" fill="url(#bg)"/>
+<text x="60" y="72" fill="#f5f0e6" font-family="Segoe UI,Arial" font-size="34" font-weight="800">System Architecture</text>
+<text x="60" y="104" fill="#8f99a2" font-family="Segoe UI,Arial" font-size="17">Human interfaces, native agents, domain authority and telemetry remain intentionally separated.</text>
+<g font-family="Segoe UI,Arial" text-anchor="middle">
+  <g transform="translate(70 160)"><rect width="210" height="72" rx="16" fill="#1a2026" stroke="#58616a"/><text x="105" y="31" fill="#f2eee7" font-size="19" font-weight="700">Dashboard</text><text x="105" y="53" fill="#8e98a1" font-size="13">administration &amp; map</text></g>
+  <g transform="translate(70 258)"><rect width="210" height="72" rx="16" fill="#1a2026" stroke="#58616a"/><text x="105" y="31" fill="#f2eee7" font-size="19" font-weight="700">TI PWA</text><text x="105" y="53" fill="#8e98a1" font-size="13">field operations</text></g>
+  <g transform="translate(70 392)"><rect width="210" height="72" rx="16" fill="#1a2026" stroke="#58616a"/><text x="105" y="31" fill="#f2eee7" font-size="19" font-weight="700">Windows Agent</text><text x="105" y="53" fill="#8e98a1" font-size="13">inventory &amp; heartbeat</text></g>
+  <g transform="translate(70 490)"><rect width="210" height="72" rx="16" fill="#1a2026" stroke="#58616a"/><text x="105" y="31" fill="#f2eee7" font-size="19" font-weight="700">Android Agent</text><text x="105" y="53" fill="#8e98a1" font-size="13">offline-first telemetry</text></g>
+  <g transform="translate(455 250)"><rect width="290" height="150" rx="22" fill="#211b12" stroke="url(#gold)" stroke-width="2"/><text x="145" y="54" fill="#f3d37c" font-size="28" font-weight="800">REST Core</text><text x="145" y="86" fill="#d4c8b4" font-size="15">assets · identity · custody</text><text x="145" y="110" fill="#d4c8b4" font-size="15">authorization · policy · audit</text></g>
+  <g transform="translate(875 182)"><rect width="240" height="82" rx="16" fill="#1a2026" stroke="#58616a"/><text x="120" y="34" fill="#f2eee7" font-size="20" font-weight="700">PostgreSQL / PostGIS</text><text x="120" y="57" fill="#8e98a1" font-size="13">domain &amp; geospatial data</text></g>
+  <g transform="translate(875 318)"><rect width="240" height="82" rx="16" fill="#1a2026" stroke="#58616a"/><text x="120" y="34" fill="#f2eee7" font-size="20" font-weight="700">Traccar</text><text x="120" y="57" fill="#8e98a1" font-size="13">location authority</text></g>
+  <g transform="translate(875 454)"><rect width="240" height="82" rx="16" fill="#1a2026" stroke="#58616a"/><text x="120" y="34" fill="#f2eee7" font-size="20" font-weight="700">Observability</text><text x="120" y="57" fill="#8e98a1" font-size="13">metrics · logs · health</text></g>
+</g>
+<g stroke="#59636c" stroke-width="2.2" fill="none">
+<path d="M280 196 C360 196 378 286 455 286"/><path d="M280 294 C365 294 380 316 455 316"/><path d="M280 428 C370 428 388 366 455 366"/><path d="M280 526 C390 526 385 388 455 388"/>
+<path d="M745 288 C805 288 820 223 875 223"/><path d="M745 338 C810 338 820 359 875 359"/><path d="M745 374 C808 374 820 495 875 495"/>
+<path d="M280 526 C610 610 700 360 875 359" stroke="#b88634" opacity=".85"/>
+</g>
+<text x="600" y="590" text-anchor="middle" fill="#d8b861" font-family="Segoe UI,Arial" font-size="17" font-weight="700">Asset ≠ Device ≠ Agent Installation ≠ Last Position</text>
+</svg>

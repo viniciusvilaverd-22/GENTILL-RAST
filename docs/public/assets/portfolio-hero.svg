@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">REST Gentill — Enterprise Asset Intelligence &amp; Tracking Platform</title>
+<desc id="desc">Portfolio banner for REST Gentill showing architecture, security, tracking and multi-platform scope.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#090b0d"/><stop offset="0.55" stop-color="#11151a"/><stop offset="1" stop-color="#171b20"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff0b5"/><stop offset=".22" stop-color="#f2c86d"/><stop offset=".5" stop-color="#b87520"/><stop offset=".72" stop-color="#edbd5c"/><stop offset="1" stop-color="#855116"/>
+  </linearGradient>
+  <radialGradient id="orb" cx=".34" cy=".28" r=".72">
+    <stop offset="0" stop-color="#fff3c8"/><stop offset=".42" stop-color="#e8ba55"/><stop offset="1" stop-color="#935817"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+<circle cx="1030" cy="92" r="135" fill="#d8aa4b" opacity=".08" filter="url(#glow)"/>
+<circle cx="970" cy="440" r="170" fill="#8a5f24" opacity=".06" filter="url(#glow)"/>
+<g transform="translate(72 68) scale(.31)">
+  <g fill="none" stroke="url(#gold)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 248 A168 168 0 0 1 248 88"/><path d="M286 76 A184 184 0 0 1 436 248"/>
+    <path d="M94 292 A164 164 0 0 0 256 444"/><path d="M256 444 A164 164 0 0 0 408 292"/>
+    <path d="M252 160 A96 96 0 0 1 348 256"/><path d="M252 210 A46 46 0 0 1 298 256"/>
+  </g><circle cx="252" cy="256" r="43" fill="url(#orb)"/>
+</g>
+<text x="250" y="118" fill="#f5f0e6" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="1.5">REST Gentill</text>
+<text x="252" y="158" fill="#c8c1b6" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="1.1">ENTERPRISE ASSET INTELLIGENCE &amp; TRACKING PLATFORM</text>
+<text x="72" y="240" fill="#f0ece5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="650">Identity. Custody. Location. Audit.</text>
+<text x="72" y="278" fill="#9ea6ad" font-family="Segoe UI, Arial, sans-serif" font-size="20">A portfolio case in product architecture, security, telemetry and multi-platform systems.</text>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing=".6">
+  <g transform="translate(72 324)"><rect width="148" height="42" rx="21" fill="#1d2228" stroke="#5b626a"/><text x="74" y="27" text-anchor="middle" fill="#e8e2d7">ASSET MODEL</text></g>
+  <g transform="translate(236 324)"><rect width="130" height="42" rx="21" fill="#1d2228" stroke="#5b626a"/><text x="65" y="27" text-anchor="middle" fill="#e8e2d7">IDENTITY</text></g>
+  <g transform="translate(382 324)"><rect width="130" height="42" rx="21" fill="#1d2228" stroke="#5b626a"/><text x="65" y="27" text-anchor="middle" fill="#e8e2d7">TRACKING</text></g>
+  <g transform="translate(528 324)"><rect width="112" height="42" rx="21" fill="#1d2228" stroke="#5b626a"/><text x="56" y="27" text-anchor="middle" fill="#e8e2d7">AUDIT</text></g>
+  <g transform="translate(656 324)"><rect width="126" height="42" rx="21" fill="#1d2228" stroke="#b88634"/><text x="63" y="27" text-anchor="middle" fill="#f0c86e">SECURITY</text></g>
+</g>
+<line x1="72" y1="410" x2="1128" y2="410" stroke="#2d333a"/>
+<text x="72" y="451" fill="#a7afb7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Web · PWA · Windows · Android · Linux</text>
+<text x="1128" y="451" text-anchor="end" fill="#d7b25b" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Vinícius Vilaverde</text>
+<text x="1128" y="479" text-anchor="end" fill="#7f8790" font-family="Segoe UI, Arial, sans-serif" font-size="14">Product &amp; System Architecture</text>
+</svg>
