@@ -14,6 +14,31 @@ A arquitetura do REST Gentill separa essas responsabilidades e mantém cada dom�
 
 ---
 
+## Portfolio highlights
+
+| | |
+| --- | --- |
+| **Produto** | Enterprise Asset Intelligence & Tracking Platform |
+| **Escopo** | Produto, arquitetura, UX, backend, agentes, infraestrutura e segurança |
+| **Plataformas** | Web, PWA, Windows, Android e Linux |
+| **Padrões centrais** | Separação de domínio, identidade de máquina, auditoria, offline-first, OIDC/RBAC |
+| **Publicação** | Documentation-only; código-fonte privado |
+| **Autor** | Vinícius Vilaverde |
+
+### Product surfaces
+
+| Superfície | Função |
+| --- | --- |
+| **Dashboard** | Operação administrativa, inventário, auditoria e mapa |
+| **TI PWA** | Operação móvel de campo |
+| **Windows Agent** | Inventário e heartbeat de endpoints Windows |
+| **Android Agent** | Telemetria móvel e operação offline-first |
+| **REST Mapper** | Levantamento físico e apoio a mapeamento indoor |
+
+➡️ **[Visão executiva do produto](docs/public/PRODUCT_OVERVIEW.md)**
+
+---
+
 ## O problema
 
 Uma operação de ativos corporativos precisa responder, com clareza:
