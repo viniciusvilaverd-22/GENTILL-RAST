@@ -4,6 +4,8 @@ Documentação pública e material de portfólio do REST Gentill.
 
 ## Comece aqui
 
+- [Portfolio Snapshot](PORTFOLIO_SNAPSHOT.md)
+- [Technical Impact](TECHNICAL_IMPACT.md)
 - [Product Overview](PRODUCT_OVERVIEW.md)
 - [Case Study](CASE_STUDY.md)
 - [Engineering Decisions](ENGINEERING_DECISIONS.md)
