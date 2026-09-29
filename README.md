@@ -291,6 +291,8 @@ O case completo documenta:
 - [Engineering Decisions](docs/public/ENGINEERING_DECISIONS.md)
 - [Componentes](docs/public/COMPONENTS.md)
 - [Modelo de segurança](docs/public/SECURITY_MODEL.md)
+- [Threat Model](docs/public/THREAT_MODEL.md)
+- [Data Ownership Map](docs/public/DATA_OWNERSHIP.md)
 - [Visão de implantação](docs/public/DEPLOYMENT_OVERVIEW.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
 - [Roadmap público](docs/public/ROADMAP.md)
