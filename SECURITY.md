@@ -36,3 +36,10 @@ Este repositório contém somente documentação pública. Relatos sobre o produ
 ## Divulgação
 
 A divulgação pública de uma vulnerabilidade deve ocorrer somente após a correção estar disponível e depois de removidos dados que facilitem abuso direto.
+
+## Public security documentation
+
+- [Security Model](docs/public/SECURITY_MODEL.md)
+- [Threat Model](docs/public/THREAT_MODEL.md)
+- [Data Ownership Map](docs/public/DATA_OWNERSHIP.md)
+- [Publication Assurance](docs/public/PUBLICATION_ASSURANCE.md)
