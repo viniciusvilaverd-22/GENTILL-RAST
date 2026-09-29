@@ -148,6 +148,7 @@ Responsibilities across the case:
 - [Architecture](docs/public/ARCHITECTURE.md)
 - [Security Model](docs/public/SECURITY_MODEL.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
+- [Public Roadmap](docs/public/ROADMAP.md)
 
 ## Publication model
 
