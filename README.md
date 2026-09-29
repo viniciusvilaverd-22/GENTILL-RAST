@@ -293,6 +293,7 @@ O case completo documenta:
 - [Modelo de segurança](docs/public/SECURITY_MODEL.md)
 - [Visão de implantação](docs/public/DEPLOYMENT_OVERVIEW.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
+- [Roadmap público](docs/public/ROADMAP.md)
 - [Política do repositório público](docs/public/REPOSITORY_POLICY.md)
 
 ---
