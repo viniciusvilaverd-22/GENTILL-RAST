@@ -8,11 +8,37 @@
 [![Public](https://img.shields.io/badge/PUBLIC-DOCUMENTATION%20ONLY-2f363d?style=for-the-badge)](#)
 [![Source](https://img.shields.io/badge/SOURCE-PRIVATE-6e7681?style=for-the-badge)](#)
 
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white)](#)
+[![PostGIS](https://img.shields.io/badge/PostGIS-Geospatial-336791?style=flat-square&logo=postgresql&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-Frontend-20232a?style=flat-square&logo=react&logoColor=61dafb)](#)
+[![.NET](https://img.shields.io/badge/.NET-Windows%20Agent-512bd4?style=flat-square&logo=dotnet&logoColor=white)](#)
+[![Android](https://img.shields.io/badge/Android-Kotlin-3ddc84?style=flat-square&logo=android&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-Control%20Plane-2496ed?style=flat-square&logo=docker&logoColor=white)](#)
+
 Plataforma corporativa para **inventário, custódia, identidade de endpoints e localização de ativos**.
 
 O REST Gentill foi projetado para resolver um problema recorrente em operações de TI: sistemas de patrimônio, localização e responsabilidade frequentemente tratam **ativo, dispositivo, usuário e posição como se fossem a mesma coisa**.
 
 A arquitetura do REST Gentill separa essas responsabilidades e mantém cada domínio auditável.
+
+---
+
+## 30-second portfolio snapshot
+
+**REST Gentill demonstra uma atuação de produto e engenharia de ponta a ponta.**
+
+| Dimensão | Evidência no case |
+| --- | --- |
+| **Product thinking** | problema, domínio, superfícies e fluxo operacional definidos como um sistema único |
+| **System architecture** | Core, telemetria, agentes, PWA, persistência e observabilidade separados por responsabilidade |
+| **Security engineering** | OIDC/RBAC, credenciais de máquina, DPAPI, secrets por arquivo e auditoria |
+| **Cross-platform** | Web, PWA, Windows, Android e Linux control plane |
+| **Data architecture** | PostgreSQL/PostGIS, telemetria dedicada e modelo de identidade não dependente de MAC/IP |
+| **Operational maturity** | backup/restore, rollback, homologação e evolução compatível de contratos |
+
+**Meu papel:** Product & System Architecture, direção de produto, UX operacional, segurança, integrações e governança técnica.
+
+➡️ [Portfolio Snapshot](docs/public/PORTFOLIO_SNAPSHOT.md) · [Technical Impact](docs/public/TECHNICAL_IMPACT.md)
 
 ---
 
@@ -255,6 +281,8 @@ O case completo documenta:
 
 ## Documentação
 
+- [Portfolio Snapshot](docs/public/PORTFOLIO_SNAPSHOT.md)
+- [Technical Impact](docs/public/TECHNICAL_IMPACT.md)
 - [Case Study](docs/public/CASE_STUDY.md)
 - [Arquitetura](docs/public/ARCHITECTURE.md)
 - [Engineering Decisions](docs/public/ENGINEERING_DECISIONS.md)
