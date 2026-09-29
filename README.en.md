@@ -151,6 +151,7 @@ Responsibilities across the case:
 - [Data Ownership Map](docs/public/DATA_OWNERSHIP.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
 - [Public Roadmap](docs/public/ROADMAP.md)
+- [Publication Assurance](docs/public/PUBLICATION_ASSURANCE.md)
 
 ## Publication model
 
