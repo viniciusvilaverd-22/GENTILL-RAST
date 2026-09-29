@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viniciusvilaverd-22.github.io/GENTILL-RAST/sitemap.xml
