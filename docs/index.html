@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>REST Gentill — Enterprise Asset Intelligence & Tracking Platform</title>
+  <meta name="description" content="Case de portfólio em arquitetura de produto, segurança, telemetria e sistemas multi-plataforma por Vinícius Vilaverde.">
+  <meta property="og:title" content="REST Gentill — Portfolio Case">
+  <meta property="og:description" content="Enterprise Asset Intelligence & Tracking Platform — Product & System Architecture by Vinícius Vilaverde.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://viniciusvilaverd-22.github.io/GENTILL-RAST/public/assets/social-preview.jpg">
+  <meta name="theme-color" content="#0b0d10">
+  <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">PORTFOLIO CASE · PRODUCT & SYSTEM ARCHITECTURE</p>
+        <h1>REST <span>Gentill</span></h1>
+        <p class="lead">Enterprise Asset Intelligence & Tracking Platform</p>
+        <p class="summary">Uma plataforma corporativa para conectar patrimônio, identidade de endpoints, responsabilidade e localização sem misturar essas autoridades em um único modelo.</p>
+        <div class="chips">
+          <span>Asset Model</span><span>Identity</span><span>Tracking</span><span>Audit</span><span class="gold">Security</span>
+        </div>
+        <div class="actions">
+          <a class="primary" href="./public/CASE_STUDY.md">Ler Case Study</a>
+          <a href="./public/ENGINEERING_DECISIONS.md">Engineering Decisions</a>
+        </div>
+      </div>
+      <div class="mark" aria-hidden="true">
+        <img src="./public/assets/portfolio-hero.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="metrics">
+      <article><strong>5</strong><span>superfícies de produto</span></article>
+      <article><strong>5</strong><span>famílias de plataforma</span></article>
+      <article><strong>3</strong><span>camadas de identidade</span></article>
+      <article><strong>1</strong><span>domínio auditável</span></article>
+    </section>
+
+    <section>
+      <p class="section-label">THE PROBLEM</p>
+      <h2>Identidade, patrimônio e posição não são a mesma coisa.</h2>
+      <p class="wide">O projeto nasceu de uma pergunta simples: como manter coerência quando um ativo possui um dispositivo, uma instalação de agente, um responsável, um local de referência e uma posição dinâmica — todos com ciclos de vida diferentes?</p>
+      <div class="principle">Asset ≠ Device ≠ Agent Installation ≠ Last Position</div>
+    </section>
+
+    <section class="dark-card">
+      <p class="section-label">ARCHITECTURE</p>
+      <h2>Autoridades explícitas, responsabilidades separadas.</h2>
+      <img class="architecture" src="./public/assets/architecture-overview.svg" alt="Arquitetura conceitual do REST Gentill">
+    </section>
+
+    <section>
+      <p class="section-label">ENGINEERING HIGHLIGHTS</p>
+      <h2>Do produto ao runtime.</h2>
+      <div class="grid three">
+        <article>
+          <h3>Identity & Security</h3>
+          <p>OIDC/RBAC para pessoas, credenciais individuais para agentes, DPAPI no Windows, armazenamento seguro no Android e secrets por arquivo.</p>
+        </article>
+        <article>
+          <h3>Telemetry</h3>
+          <p>REST Core como autoridade patrimonial; Traccar como autoridade de localização; PostGIS como suporte geoespacial.</p>
+        </article>
+        <article>
+          <h3>Multi-platform</h3>
+          <p>Dashboard web, PWA de campo, Windows Agent, Android Agent e Linux control plane em uma arquitetura coordenada.</p>
+        </article>
+        <article>
+          <h3>Offline-first</h3>
+          <p>O Android considera falhas de conectividade, fila local e sincronização posterior como parte do desenho operacional.</p>
+        </article>
+        <article>
+          <h3>Recoverability</h3>
+          <p>Backup, restore e rollback são capacidades arquiteturais, não apenas procedimentos documentais.</p>
+        </article>
+        <article>
+          <h3>Governance</h3>
+          <p>Migrations, contratos versionados, baselines e candidatas reduzem regressões entre Core, agentes e interfaces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="role">
+      <div>
+        <p class="section-label">MY ROLE</p>
+        <h2>Vinícius Vilaverde</h2>
+        <p class="role-title">Product & System Architecture</p>
+      </div>
+      <ul>
+        <li>concepção e direção do produto</li>
+        <li>arquitetura de sistemas e domínio</li>
+        <li>UX operacional e integrações</li>
+        <li>segurança e identidade</li>
+        <li>estratégia de agentes e infraestrutura</li>
+        <li>governança técnica e evolução de contratos</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="section-label">STACK</p>
+      <div class="stack">
+        <span>FastAPI</span><span>SQLAlchemy</span><span>PostgreSQL</span><span>PostGIS</span><span>React</span><span>TypeScript</span><span>.NET</span><span>Kotlin</span><span>Traccar</span><span>Docker</span><span>OIDC</span><span>Prometheus</span><span>Grafana</span>
+      </div>
+    </section>
+
+    <section class="links">
+      <p class="section-label">DEEP DIVE</p>
+      <h2>Documentação pública</h2>
+      <div class="grid two">
+        <a href="./public/PRODUCT_OVERVIEW.md"><strong>Product Overview</strong><span>visão executiva do produto</span></a>
+        <a href="./public/CASE_STUDY.md"><strong>Case Study</strong><span>problema, arquitetura e solução</span></a>
+        <a href="./public/PORTFOLIO_SNAPSHOT.md"><strong>Portfolio Snapshot</strong><span>leitura rápida para portfólio</span></a>
+        <a href="./public/TECHNICAL_IMPACT.md"><strong>Technical Impact</strong><span>pressões e profundidade técnica</span></a>
+        <a href="./public/SECURITY_MODEL.md"><strong>Security Model</strong><span>identidade, credenciais e auditoria</span></a>
+        <a href="./public/ENGINEERING_DECISIONS.md"><strong>Engineering Decisions</strong><span>trade-offs arquiteturais</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>REST Gentill · Public portfolio documentation</p>
+    <p>Copyright © 2026 REST Gentill. Source code remains private.</p>
+  </footer>
+</body>
+</html>
