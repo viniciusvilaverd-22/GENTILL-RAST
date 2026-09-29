@@ -13,6 +13,7 @@ Documentação pública e material de portfólio do REST Gentill.
 - [Engineering Decisions](ENGINEERING_DECISIONS.md)
 - [Technology Rationale](TECHNOLOGY_RATIONALE.md)
 - [Public Roadmap](ROADMAP.md)
+- [Publication Assurance](PUBLICATION_ASSURANCE.md)
 - [Arquitetura](ARCHITECTURE.md)
 - [Componentes](COMPONENTS.md)
 - [Modelo de segurança](SECURITY_MODEL.md)
