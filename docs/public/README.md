@@ -16,6 +16,8 @@ Documentação pública e material de portfólio do REST Gentill.
 - [Arquitetura](ARCHITECTURE.md)
 - [Componentes](COMPONENTS.md)
 - [Modelo de segurança](SECURITY_MODEL.md)
+- [Threat Model](THREAT_MODEL.md)
+- [Data Ownership Map](DATA_OWNERSHIP.md)
 - [Visão de implantação](DEPLOYMENT_OVERVIEW.md)
 - [Política do repositório público](REPOSITORY_POLICY.md)
 
