@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="REST Gentill">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b5"/>
+      <stop offset=".22" stop-color="#f2c86d"/>
+      <stop offset=".5" stop-color="#b87520"/>
+      <stop offset=".72" stop-color="#edbd5c"/>
+      <stop offset="1" stop-color="#855116"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0b0d10"/>
+  <g fill="none" stroke="url(#g)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 248 A168 168 0 0 1 248 88"/>
+    <path d="M286 76 A184 184 0 0 1 436 248"/>
+    <path d="M94 292 A164 164 0 0 0 256 444"/>
+    <path d="M256 444 A164 164 0 0 0 408 292"/>
+    <path d="M252 160 A96 96 0 0 1 348 256"/>
+    <path d="M252 210 A46 46 0 0 1 298 256"/>
+  </g>
+  <circle cx="252" cy="256" r="43" fill="url(#g)"/>
+</svg>
