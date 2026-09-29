@@ -2,6 +2,8 @@
 
 <p align="center"><img src="docs/public/assets/portfolio-hero.svg" alt="REST Gentill — Enterprise Asset Intelligence & Tracking Platform" width="100%"></p>
 
+<p align="center"><strong>🇧🇷 Português</strong> · <a href="README.en.md">🇺🇸 English</a></p>
+
 **Enterprise Asset Intelligence & Tracking Platform**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-CASE%20STUDY-111111?style=for-the-badge)](#)
@@ -290,6 +292,7 @@ O case completo documenta:
 - [Componentes](docs/public/COMPONENTS.md)
 - [Modelo de segurança](docs/public/SECURITY_MODEL.md)
 - [Visão de implantação](docs/public/DEPLOYMENT_OVERVIEW.md)
+- [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
 - [Política do repositório público](docs/public/REPOSITORY_POLICY.md)
 
 ---
