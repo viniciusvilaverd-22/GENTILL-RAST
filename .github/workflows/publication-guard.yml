@@ -1,0 +1,66 @@
+name: Public Portfolio Guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Reject product source directories
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '^(apps|agents|services|infra|database|data|scripts|tests|tools)/'; then
+            echo "Product source directory found in the public portfolio."
+            exit 1
+          fi
+
+      - name: Reject generated or sensitive artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -Ei '\.(apk|aab|exe|dll|msi|msix|dump|sqlite|sqlite3|pfx|p12|jks|keystore)$'; then
+            echo "Generated or sensitive artifact found."
+            exit 1
+          fi
+          if git ls-files | grep -E '(^|/)\.env($|\.)' | grep -v '\.example$'; then
+            echo "Runtime environment file found."
+            exit 1
+          fi
+
+      - name: Reject assistant attribution markers
+        shell: bash
+        run: |
+          set -euo pipefail
+          TERM_A='Chat''GPT'
+          TERM_B='Co''dex'
+          TERM_C='Open''AI'
+          if git grep -n -I -F -e "$TERM_A" -e "$TERM_B" -e "$TERM_C" -- .; then
+            echo "Assistant attribution marker found."
+            exit 1
+          fi
+
+      - name: Reject obvious credential patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          P1='github_'pat_
+          P2='gh''p_'
+          P3='AK''IA'
+          if git grep -n -I -E "$P1|$P2|$P3[0-9A-Z]{16}" -- .; then
+            echo "Credential-like pattern found."
+            exit 1
+          fi
+
+      - name: Publication guard passed
+        run: echo "Public portfolio guard passed."
