@@ -296,6 +296,7 @@ O case completo documenta:
 - [Visão de implantação](docs/public/DEPLOYMENT_OVERVIEW.md)
 - [Technology Rationale](docs/public/TECHNOLOGY_RATIONALE.md)
 - [Roadmap público](docs/public/ROADMAP.md)
+- [Publication Assurance](docs/public/PUBLICATION_ASSURANCE.md)
 - [Política do repositório público](docs/public/REPOSITORY_POLICY.md)
 
 ---
