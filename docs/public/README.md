@@ -2,6 +2,8 @@
 
 Documentação pública e material de portfólio do REST Gentill.
 
+🇧🇷 Português · [🇺🇸 English](../../README.en.md)
+
 ## Comece aqui
 
 - [Portfolio Snapshot](PORTFOLIO_SNAPSHOT.md)
@@ -9,6 +11,7 @@ Documentação pública e material de portfólio do REST Gentill.
 - [Product Overview](PRODUCT_OVERVIEW.md)
 - [Case Study](CASE_STUDY.md)
 - [Engineering Decisions](ENGINEERING_DECISIONS.md)
+- [Technology Rationale](TECHNOLOGY_RATIONALE.md)
 - [Arquitetura](ARCHITECTURE.md)
 - [Componentes](COMPONENTS.md)
 - [Modelo de segurança](SECURITY_MODEL.md)
