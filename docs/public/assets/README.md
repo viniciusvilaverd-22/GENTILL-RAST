@@ -4,9 +4,11 @@ Assets visuais públicos do case REST Gentill.
 
 ## Arquivos
 
-- `portfolio-hero.svg` — hero principal usado no README;
+- `portfolio-hero-premium.jpg` — hero premium principal usado no README;
+- `portfolio-hero.svg` — fallback vetorial técnico;
 - `architecture-overview.svg` — arquitetura conceitual de leitura rápida;
-- `social-preview.jpg` — imagem 1280×640 preparada para o Social Preview do GitHub.
+- `social-preview.jpg` — social preview premium 1280×640;
+- `architecture-overview.svg` — arquitetura conceitual de leitura rápida.
 
 ## Escopo
 

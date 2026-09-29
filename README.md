@@ -1,6 +1,6 @@
 # REST Gentill
 
-<p align="center"><img src="docs/public/assets/portfolio-hero.svg" alt="REST Gentill — Enterprise Asset Intelligence & Tracking Platform" width="100%"></p>
+<p align="center"><img src="docs/public/assets/portfolio-hero-premium.jpg" alt="REST Gentill — Enterprise Asset Intelligence & Tracking Platform" width="100%"></p>
 
 <p align="center"><strong>🇧🇷 Português</strong> · <a href="README.en.md">🇺🇸 English</a></p>
 
