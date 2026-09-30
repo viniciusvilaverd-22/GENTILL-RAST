@@ -102,3 +102,22 @@ footer{width:min(var(--max),calc(100% - 48px));margin:auto;padding:42px 0 70px;c
 .lang a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
 @media(max-width:900px){.portfolio-cover{width:calc(100% - 32px);margin-top:16px}.hero{padding:36px 20px 58px}}
 @media(max-width:560px){.portfolio-cover{border-radius:12px}.hero-grid.portfolio-hero-copy h1{font-size:clamp(46px,12vw,66px)}}
+
+/* P7 RC1 — mobile wrapping, keyboard access and motion preferences */
+.principle{overflow-wrap:anywhere;white-space:normal}
+a:focus-visible{outline:3px solid var(--gold2);outline-offset:4px;border-radius:4px}
+.gallery-nav a,.lang a{min-height:44px;display:inline-flex;align-items:center}
+.actions a{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+@media(max-width:560px){
+ .dark-card{padding:24px}
+ .principle{font-size:clamp(12px,3.7vw,18px);padding:15px}
+ .metrics strong{font-size:clamp(26px,8vw,38px)}
+ .metrics article{min-width:0}
+ .summary,.wide{font-size:17px}
+ .stack span,.chips span{max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .gallery-tile img,.links a{transition:none}
+ .gallery-tile>a:hover img,.links a:hover{transform:none}
+}

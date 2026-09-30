@@ -82,7 +82,7 @@ Capturas reprocessadas de interfaces reais, feitas em contexto demonstrativo/de 
   <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/04-pwa-mobile.jpg" alt="TI PWA — terminal móvel REST Gentill" width="32%"></a>
 </p>
 
-**[Explorar as quatro capturas e suas legendas](docs/public/GALLERY.md)** · [Galeria no site](docs/gallery.html)
+**[Explorar as quatro capturas e suas legendas](docs/public/GALLERY.md)** · [Galeria no site](https://viniciusvilaverd-22.github.io/GENTILL-RAST/gallery.html)
 
 ---
 

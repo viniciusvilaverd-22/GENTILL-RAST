@@ -48,7 +48,7 @@ jobs:
           from urllib.parse import urlsplit, unquote
 
           docs = Path("docs").resolve()
-          pages = [docs / name for name in ("index.html", "en.html", "gallery.html")]
+          pages = [docs / name for name in ("index.html", "en.html", "gallery.html", "gallery.en.html")]
           errors = []
 
           class LinkParser(HTMLParser):
@@ -83,7 +83,7 @@ jobs:
 
           if errors:
               raise SystemExit("\n".join(errors))
-          print("PAGES_LINKS=PASS pages=3")
+          print("PAGES_LINKS=PASS pages=4")
           PY
 
       - name: Validate public brand media

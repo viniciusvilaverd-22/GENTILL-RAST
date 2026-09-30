@@ -28,7 +28,7 @@ Reprocessed interface captures from local demonstration and QA. Fixture-based ex
   <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/04-pwa-mobile.jpg" alt="REST Gentill IT PWA" width="32%"></a>
 </p>
 
-**[Explore all four screenshots and captions](docs/public/GALLERY.md)** · [Portfolio gallery](docs/gallery.html)
+**[Explore all four screenshots and captions](docs/public/GALLERY.md)** · [Portfolio gallery](https://viniciusvilaverd-22.github.io/GENTILL-RAST/gallery.en.html)
 
 ## The problem
 
