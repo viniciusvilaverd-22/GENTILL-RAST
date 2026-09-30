@@ -38,6 +38,54 @@ jobs:
             exit 1
           fi
 
+      - name: Validate Pages file links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlsplit, unquote
+
+          docs = Path("docs").resolve()
+          pages = [docs / name for name in ("index.html", "en.html", "gallery.html")]
+          errors = []
+
+          class LinkParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.links = []
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if key in ("href", "src") and value:
+                          self.links.append((tag, key, value))
+
+          for page in pages:
+              if not page.is_file():
+                  errors.append(f"Missing HTML page: {page}")
+                  continue
+              parser = LinkParser()
+              parser.feed(page.read_text(encoding="utf-8"))
+              for tag, key, original in parser.links:
+                  url = urlsplit(original)
+                  if url.scheme or url.netloc or original.startswith(("#", "//", "mailto:", "tel:")):
+                      continue
+                  relative = unquote(url.path)
+                  if not relative:
+                      continue
+                  target = (page.parent / relative).resolve()
+                  if not target.is_relative_to(docs):
+                      errors.append(f"{page.name}: link escapes published docs: {original}")
+                  elif relative.lower().endswith(".md"):
+                      errors.append(f"{page.name}: link targets raw Markdown with .nojekyll: {original}")
+                  elif not target.is_file():
+                      errors.append(f"{page.name}: missing {key} target: {original}")
+
+          if errors:
+              raise SystemExit("\n".join(errors))
+          print("PAGES_LINKS=PASS pages=3")
+          PY
+
       - name: Validate public brand media
         shell: bash
         run: |

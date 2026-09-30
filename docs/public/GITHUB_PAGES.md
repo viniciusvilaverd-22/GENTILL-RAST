@@ -31,3 +31,11 @@ A página publica apenas material documental de portfólio:
 - links para documentação pública.
 
 Nenhum código-fonte do produto, segredo, dump ou evidência interna é publicado pela página.
+
+## Navegação documental
+
+A pasta `docs/` utiliza `.nojekyll`, portanto a landing page encaminha documentos Markdown para seus links formatados no próprio GitHub. O guard de publicação valida referências relativas de HTML, imagens, CSS e favicon antes de aceitar alterações.
+
+## Critérios de verificação
+
+Consulte [P7 — Portfolio RC1](PORTFOLIO_RC1.md) antes de considerar a publicação encerrada. A presença do HTML na branch não equivale à confirmação de que o site foi ativado.

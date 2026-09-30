@@ -91,3 +91,14 @@ footer{width:min(var(--max),calc(100% - 48px));margin:auto;padding:42px 0 70px;c
  .gallery-page{padding-top:25px}
  .gallery-page .gallery-nav{margin-bottom:35px}
 }
+
+/* P7 RC1 — responsive portfolio cover and editorial intro */
+.portfolio-cover{width:min(var(--max),calc(100% - 48px));margin:32px auto 0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--panel)}
+.portfolio-cover img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}
+.hero{min-height:0;padding:54px 32px 72px}
+.hero-grid.portfolio-hero-copy{display:grid;grid-template-columns:minmax(0,1fr);gap:0;max-width:980px}
+.hero-grid.portfolio-hero-copy h1{font-size:clamp(50px,7.5vw,92px)}
+.lang{display:inline-flex;gap:10px;align-items:center;font-size:14px;margin-bottom:18px}
+.lang a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:900px){.portfolio-cover{width:calc(100% - 32px);margin-top:16px}.hero{padding:36px 20px 58px}}
+@media(max-width:560px){.portfolio-cover{border-radius:12px}.hero-grid.portfolio-hero-copy h1{font-size:clamp(46px,12vw,66px)}}
