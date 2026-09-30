@@ -38,6 +38,26 @@ jobs:
             exit 1
           fi
 
+      - name: Validate public brand media
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          for relative in (
+              "docs/public/assets/portfolio-hero-premium.jpg",
+              "docs/public/assets/social-preview.jpg",
+          ):
+              path = Path(relative)
+              data = path.read_bytes()
+              if not (30_000 <= len(data) <= 2_000_000):
+                  raise SystemExit(f"Invalid brand image size: {relative} ({len(data)} bytes)")
+              if not (data.startswith(bytes.fromhex("ffd8")) and data.endswith(bytes.fromhex("ffd9"))):
+                  raise SystemExit(f"Invalid JPEG markers: {relative}")
+              print(f"BRAND_MEDIA=PASS {relative} bytes={len(data)}")
+          PY
+
       - name: Reject assistant attribution markers
         shell: bash
         run: |
