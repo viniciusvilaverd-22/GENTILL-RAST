@@ -70,6 +70,22 @@ A arquitetura do REST Gentill separa essas responsabilidades e mantém cada dom�
 
 ---
 
+## Produto em imagens
+
+Capturas reprocessadas de interfaces reais, feitas em contexto demonstrativo/de QA. Os resultados de fixtures são fictícios; a imagem do mapa é de testes locais, não de produção.
+
+<p align="center">
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/01-command-center.jpg" alt="Command Center — REST Gentill" width="48%"></a>
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/03-mapa.jpg" alt="Mapa operacional — REST Gentill" width="48%"></a>
+</p>
+<p align="center">
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/04-pwa-mobile.jpg" alt="TI PWA — terminal móvel REST Gentill" width="32%"></a>
+</p>
+
+**[Explorar as quatro capturas e suas legendas](docs/public/GALLERY.md)** · [Galeria no site](docs/gallery.html)
+
+---
+
 ## O problema
 
 Uma operação de ativos corporativos precisa responder, com clareza:

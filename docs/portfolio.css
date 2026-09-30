@@ -59,3 +59,35 @@ footer{width:min(var(--max),calc(100% - 48px));margin:auto;padding:42px 0 70px;c
   .metrics{grid-template-columns:1fr 1fr}.metrics article{padding:18px}section{padding:68px 0}
   footer{width:calc(100% - 32px);flex-direction:column}
 }
+
+/* Public product gallery */
+.gallery-section{padding-top:72px}
+.gallery-showcase{display:grid;grid-template-columns:1fr 1fr .58fr;gap:16px;align-items:stretch;margin-top:32px}
+.gallery-tile{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0}
+.gallery-tile>a{display:flex;align-items:center;justify-content:center;min-height:200px;max-height:390px;padding:10px;background:#0c0f12}
+.gallery-tile img{display:block;max-width:100%;width:100%;height:auto;max-height:355px;object-fit:contain;transition:transform .18s ease}
+.gallery-tile>a:hover img{transform:scale(1.015)}
+.gallery-tile figcaption{display:flex;flex-direction:column;gap:3px;padding:15px 18px;border-top:1px solid var(--line)}
+.gallery-tile strong{color:var(--text);font-size:15px}
+.gallery-tile figcaption span{color:var(--muted);font-size:13px}
+.gallery-link{display:inline-block;margin-top:20px;color:var(--gold2);font-weight:750}
+.gallery-link:hover{text-decoration:underline}
+.gallery-page{padding-top:38px}
+.gallery-page .gallery-nav{display:flex;justify-content:space-between;gap:16px;margin-bottom:60px;color:var(--gold2)}
+.gallery-page h1{font-size:clamp(44px,7vw,88px)}
+.gallery-page h1 span{font-weight:300;color:var(--gold2)}
+.gallery-page .gallery-tile.mobile>a img{max-height:355px}
+.gallery-extra img{max-width:760px;width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:16px}
+.gallery-note{max-width:900px;color:var(--muted);font-size:14px;margin:38px 0 70px}
+.gallery-note a{color:var(--gold2)}
+@media(max-width:900px){
+ .gallery-showcase{grid-template-columns:1fr 1fr}
+ .gallery-tile.mobile{grid-column:1 / -1}
+ .gallery-tile.mobile>a img{max-width:330px}
+}
+@media(max-width:600px){
+ .gallery-showcase{grid-template-columns:1fr}
+ .gallery-tile.mobile{grid-column:auto}
+ .gallery-page{padding-top:25px}
+ .gallery-page .gallery-nav{margin-bottom:35px}
+}

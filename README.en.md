@@ -16,6 +16,20 @@ Its architecture is built around an explicit principle:
 Asset ≠ Device ≠ Agent Installation ≠ Last Position
 ```
 
+## Product gallery
+
+Reprocessed interface captures from local demonstration and QA. Fixture-based examples are synthetic; the map image is a local QA capture, not production tracking.
+
+<p align="center">
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/01-command-center.jpg" alt="REST Gentill Command Center" width="48%"></a>
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/03-mapa.jpg" alt="REST Gentill operational map" width="48%"></a>
+</p>
+<p align="center">
+  <a href="docs/public/GALLERY.md"><img src="docs/public/assets/gallery/04-pwa-mobile.jpg" alt="REST Gentill IT PWA" width="32%"></a>
+</p>
+
+**[Explore all four screenshots and captions](docs/public/GALLERY.md)** · [Portfolio gallery](docs/gallery.html)
+
 ## The problem
 
 Enterprise IT operations often need to answer several different questions at once:
